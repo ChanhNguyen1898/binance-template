@@ -1,0 +1,25 @@
+/*---- min-width: 767px -----*/
+@media screen and (min-width: 767px) {
+    .css-jmskxt {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .css-1tp5kus {
+        pointer-events: auto;
+        visibility: visible;
+    }
+    .css-1ox6s0y[data-layout=gird] {
+        width: 768px;
+    }
+    .css-1ox6s0y[data-layout=gird]>a {
+        width: 50%;
+    }
+    .css-1pkwjgt .menu-ctx {
+        font-size: 16px;
+        margin-left: 8px;
+    }
+    .css-1xbszl8 .menu-ctx {
+        font-size: 16px;
+        margin-left: 8px;
+    }
+}

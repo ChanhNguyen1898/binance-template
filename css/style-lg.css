@@ -1,0 +1,13 @@
+/*---- min-width: 1023px -----*/
+@media screen and (min-width: 1023px) {
+    .css-1ox6s0y[data-layout=gird] {
+        width: 1200px;
+    }
+    .css-1ox6s0y[data-layout=gird] > a {
+        width: 33.33%;
+    }
+    .css-1xbszl8 .menu-ctx {
+        font-size: 14px;
+        margin-left: 12px;
+    }
+}
