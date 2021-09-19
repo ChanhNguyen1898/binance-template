@@ -1,4 +1,4 @@
-fetch("./header.html")
+fetch("./layout/header.html")
     .then(response => {
         return response.text()
     })
@@ -6,14 +6,14 @@ fetch("./header.html")
         document.querySelector("header").innerHTML = data;
     });
 
-fetch("./footer.html")
+fetch("./layout/footer.html")
     .then(response => {
         return response.text()
     })
     .then(data => {
         document.querySelector("footer").innerHTML = data;
     });
-fetch("./global.html")
+fetch("./layout/global.html")
     .then(response => {
         return response.text()
     })
