@@ -1,6 +1,7 @@
 /*---- min-width: 767px -----*/
+
 @media screen and (min-width: 767px) {
-    .css-jmskxt {
+    .header {
         padding-left: 16px;
         padding-right: 16px;
     }
@@ -21,5 +22,327 @@
     .css-1xbszl8 .menu-ctx {
         font-size: 16px;
         margin-left: 8px;
+    }
+    .css-likv7w {
+        background-image: url(../images/en-bg.png);
+    }
+    .css-nstqlq {
+        background-image: url(../images/en-bg-tab.png);
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .css-1d0myes {
+        padding-top: 72px;
+        padding-bottom: 72px;
+        width: 58.333333333333336%;
+    }
+    .css-a0l4bj {
+        display: block;
+    }
+    .css-8usnu0 {
+        height: 44px;
+    }
+    .css-1p0c5zx {
+        margin-left: -16px;
+    }
+    .css-zfbl14 {
+        height: 92px;
+        margin-bottom: 32px;
+    }
+    .css-17m0fgp {
+        -webkit-flex-wrap: noWrap;
+        -ms-flex-wrap: noWrap;
+        flex-wrap: noWrap;
+    }
+    .css-8aj25i {
+        font-size: 48px;
+    }
+    .css-ux5i7i {
+        width: 25%;
+    }
+    .css-8mv8x3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .css-1moyzf4 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .css-f5don5 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .css-1pujwnb {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+    .css-1oxyf2i {
+        padding-left: 24px;
+        padding-right: 24px;
+        font-size: 14px;
+    }
+    .css-13vxg7j {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .css-1aoiazi {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .css-6sm2ml {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .css-1fvws85 {
+        margin-bottom: 24px;
+    }
+    .css-1jp5coh {
+        font-size: 28px;
+    }
+    .css-1jsfmns {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: -16px;
+        margin-right: -16px;
+    }
+    .css-7oeb34 {
+        padding-right: 40px;
+    }
+    .css-ry6hum {
+        display: none;
+    }
+    .css-1y4tp51 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .css-1rze8bf {
+        font-size: 16px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: -16px;
+        margin-right: -16px;
+    }
+    .css-13oe0dt {
+        margin-left: 16px;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .css-1o883qu,
+    .css-1gmmihy {
+        padding-right: 40px;
+    }
+    .css-19hkavs {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .css-voodvx {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .slick-dots {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .mica-slider .slide-wrapper.slick2 .slide {
+        width: 20%;
+    }
+    .css-1or0rbr>div:first-of-type {
+        margin-bottom: 32px;
+    }
+    .css-1ajvsun {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 8px 24px;
+        margin-right: 24px;
+    }
+    .css-osnx4 {
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .css-osnx4>.pane-content {
+        margin-right: 32px;
+        width: 50%;
+    }
+    .css-ugu1uc {
+        font-size: 20px;
+    }
+    .css-wq05s5 {
+        margin-top: 32px;
+    }
+    .css-osnx4>.pane-media {
+        width: auto;
+        margin-bottom: 0;
+    }
+    .css-1lj21v5 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .css-1afho3d {
+        font-size: 16px;
+    }
+    .css-1phcb00>div:first-of-type {
+        margin-bottom: 32px;
+    }
+    .css-173kfy6 {
+        margin-right: 16px;
+    }
+    .css-1s7tamj {
+        padding: 24px;
+        width: 50%;
+    }
+    .css-z0xp9v {
+        width: 64px;
+        height: 64px;
+    }
+    .css-p8t6vo {
+        margin-top: 24px;
+    }
+    .css-1rykhvt {
+        font-size: 20px;
+    }
+    .css-tqn5xu {
+        margin-top: 32px;
+    }
+    .css-3jwsxp {
+        font-size: 16px;
+    }
+    .css-qvc46o {
+        padding: 24px;
+    }
+    .css-1v7qo0h {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        padding-top: 16px;
+    }
+    .css-13bmsul {
+        -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+    }
+    .css-67pirc {
+        padding-bottom: 100%;
+        background-image: none;
+    }
+    .css-1sm6ir6 {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .css-2zqeft {
+        padding-right: 50%;
+        background-size: auto 95%;
+        background-position: center;
+    }
+    .css-2zqeft {
+        padding-right: 36%;
+        background-position: right center;
+    }
+    .css-1htrs1h {
+        right: 0;
+        background-image: url(../images/mobile-fiat.png);
+    }
+    .css-bpo7jd {
+        -webkit-flex: 4;
+        -ms-flex: 4;
+        flex: 4;
+        margin-top: 0;
+    }
+    .css-8non6d {
+        display: block;
+        padding-left: 24px;
+    }
+    .css-1n2fhb3 {
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .css-16ytl5k {
+        margin-left: 16px;
+        margin-top: 0;
+    }
+    .css-1w875lq {
+        display: block;
+    }
+    .css-q7pxgb {
+        padding-left: 24px;
+    }
+    .css-1v4v4fq {
+        display: flex;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        flex: 0 0 50%;
+    }
+    .css-77h07n {
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+    }
+    .css-1hijuq3 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    }
+    .css-tpvxa5 {
+        display: none;
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    }
+    .css-1jxn2rw {
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    }
+    .css-aukhqv {
+        display: none;
+    }
+    .css-2xhdch {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .css-18v6zvi {
+        font-size: 40px;
+    }
+    .css-14y1vgp {
+        margin-right: 24px;
+        min-width: 164px;
+    }
+    .css-m6u92r {
+        min-width: 164px;
     }
 }

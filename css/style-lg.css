@@ -1,13 +1,184 @@
+.hidden-pc {
+    display: none;
+}
+@media screen and (max-width: 1247px) {
+    .hidden-sp-lg {
+        display: none;
+    }
+    .hidden-pc {
+        display: block;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .css-vurnku {
+        display: block !important;
+    }
+    .css-1y3ujfh {
+        display: none;
+    }
+}
+@media screen and (max-width: 961px) {
+    .css-19l5e2z {
+        display: block !important;
+    }
+    .css-1tp5kus {
+        display: none;
+    }
+}
+
 /*---- min-width: 1023px -----*/
+
 @media screen and (min-width: 1023px) {
     .css-1ox6s0y[data-layout=gird] {
         width: 1200px;
     }
-    .css-1ox6s0y[data-layout=gird] > a {
+    .css-1ox6s0y[data-layout=gird]>a {
         width: 33.33%;
     }
     .css-1xbszl8 .menu-ctx {
         font-size: 14px;
         margin-left: 12px;
+    }
+    .css-nstqlq {
+        background-image: url(../images/en-fg.png);
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .css-1d0myes {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .css-a0l4bj {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .css-1p0c5zx {
+        margin-left: 0;
+    }
+    .css-ux5i7i {
+        width: 20%;
+    }
+    .css-1pujwnb {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .css-1aoiazi {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .css-1fvws85 {
+        margin-bottom: 32px;
+    }
+    .css-1jp5coh {
+        font-size: 32px;
+    }
+    .css-1jsfmns {
+        font-size: 14px;
+    }
+    .css-7oeb34 {
+        padding-right: 120px;
+    }
+    .css-ry6hum {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .css-1rze8bf {
+        font-size: 20px;
+    }
+    .css-1o883qu,
+    .css-1gmmihy {
+        padding-right: 120px;
+    }
+    .css-19hkavs {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .css-1or0rbr>div:first-of-type {
+        margin-bottom: 40px;
+    }
+    .css-osnx4>.pane-content {
+        margin-right: 64px;
+    }
+    .css-ugu1uc {
+        font-size: 28px;
+    }
+    .css-1lj21v5 {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .css-1phcb00>div:first-of-type {
+        margin-bottom: 40px;
+    }
+    .css-1s7tamj {
+        width: 25%;
+    }
+    .css-1rykhvt {
+        font-size: 16px;
+    }
+    .css-qvc46o {
+        width: 50%;
+    }
+    .css-1v7qo0h {
+        padding-top: 8px;
+    }
+    .css-13bmsul {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+    .css-67pirc {
+        padding-bottom: 72%;
+        background-image: url(../images/desktop-trade.png);
+    }
+    .css-1sm6ir6 {
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+    .css-1htrs1h {
+        right: -4px;
+    }
+    .css-bpo7jd {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+    .css-8non6d {
+        padding-left: 80px;
+    }
+    .css-q7pxgb {
+        padding-left: 80px;
+    }
+    .css-1v4v4fq {
+        flex: 0 0 33.33%;
+    }
+    .css-1hijuq3 {
+        -webkit-flex: 0 0 33.33%;
+        -ms-flex: 0 0 33.33%;
+        flex: 0 0 33.33%;
+    }
+    .css-tpvxa5 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex: 0 0 33.33%;
+        -ms-flex: 0 0 33.33%;
+        flex: 0 0 33.33%;
+    }
+    .css-1jxn2rw {
+        -webkit-flex: 0 0 33.33%;
+        -ms-flex: 0 0 33.33%;
+        flex: 0 0 33.33%;
+    }
+    .css-18v6zvi {
+        font-size: 32px;
     }
 }
