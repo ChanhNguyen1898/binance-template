@@ -1,15 +1,4 @@
 $(document).ready(function() {
-    $('.css-oymnjk').hide();
-    $('.css-1wobcdl').click(function() {
-        $('.css-oymnjk').fadeIn();
-    });
-    $('.menu-item').click(function() {
-        $(this).toggleClass('css-1pkwjgt css-1nxq18a');
-        $(this).next().toggleClass('css-1cuk2y css-17xlfum');
-    });
-    $('.css-110oij1, .css-1pysja1').click(function() {
-        $('.css-oymnjk').fadeOut();
-    });
     // slick1 slider
     $(".slick1").slick({
         infinite: true,
@@ -48,27 +37,4 @@ $(document).ready(function() {
             },
         ]
     });
-    $('.myTabs').each(function() {
-        var $myTabs = $(this);
-        $myTabs.find('.css-gnqbje').hide().first().show();
-        $myTabs.find('.css-1ajvsun:first').addClass('active').show();
-        $myTabs.find('.css-1ajvsun').click(function() {
-            var $this = $(this);
-            $this.addClass('active').siblings().removeClass('active');
-            $myTabs.find('.css-gnqbje').hide();
-            var tabLink = $(this).attr('rel');
-            $(tabLink).show();
-            return false;
-        });
-    });
-    $('.slideToggle').each(function() {
-        $('.btnToggle').click(function() {
-            $(this).toggleClass('active');
-            var tabRel = $(this).attr('rel');
-            $(tabRel).slideToggle();
-            $(".css-1qu0gon:visible").not(tabRel).slideToggle();
-            $(".css-1qu0gon:visible").not(tabRel).prev().toggleClass('active');
-        });
-    });
-
 });
