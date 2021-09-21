@@ -24,10 +24,10 @@
         margin-left: 8px;
     }
     .css-likv7w {
-        background-image: url(../images/en-bg.png);
+        background-image: url(../images/home/en-bg.png);
     }
     .css-nstqlq {
-        background-image: url(../images/en-bg-tab.png);
+        background-image: url(../images/home/en-bg-tab.png);
         padding-left: 0;
         padding-right: 0;
         margin-left: 16px;
@@ -258,7 +258,7 @@
     }
     .css-1htrs1h {
         right: 0;
-        background-image: url(../images/mobile-fiat.png);
+        background-image: url(../images/home/mobile-fiat.png);
     }
     .css-bpo7jd {
         -webkit-flex: 4;
