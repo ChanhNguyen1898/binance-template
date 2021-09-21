@@ -730,6 +730,9 @@ button {
     height: 100%;
     flex: 0 0 auto;
 }
+.menu-sp {
+    display: none;
+}
 .css-oymnjk {
     box-sizing: border-box;
     margin: 0px;
@@ -3198,7 +3201,6 @@ div.chart-title-row.fold:nth-child(2)~div {
     overflow-x: hidden;
     overflow-y: scroll;
     scroll-behavior: smooth;
-    ms-overflow-style: none;
     scrollbar-width: none;
 }
 .kline-draw-menu-container::-webkit-scrollbar {

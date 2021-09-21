@@ -204,6 +204,11 @@
     .css-1r9wg69 {
         width: calc(100% - 220px);
     }
+    .css-164jjgg {
+        max-width: 1200px;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
 }
 @media screen and (min-width: 1024px) {
     .css-7elqhi {

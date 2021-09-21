@@ -461,4 +461,9 @@
         padding: 8px 16px;
         font-size: 14px;
     }
+    .css-164jjgg {
+        max-width: calc(100% - 48px);
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
 }
