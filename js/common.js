@@ -34,13 +34,11 @@ $(document).ready(function() {
         });
     });
     //FAQ Toggle
-    $('.slideToggle').each(function() {
-        $('.btnToggle').click(function() {
-            $(this).toggleClass('active');
-            var tabRel = $(this).attr('rel');
-            $(tabRel).slideToggle();
-            $(".css-1qu0gon:visible").not(tabRel).slideToggle();
-            $(".css-1qu0gon:visible").not(tabRel).prev().toggleClass('active');
-        });
+    $('.btnToggle').click(function() {
+        $(this).toggleClass('active');
+        var tabRel = $(this).attr('rel');
+        $(tabRel).slideToggle();
+        $(".css-1qu0gon:visible").not(tabRel).slideToggle();
+        $(".css-1qu0gon:visible").not(tabRel).prev().toggleClass('active');
     });
 });
