@@ -1,0 +1,290 @@
+.react-grid-item {
+    transition: left 200ms ease 0s, top;
+    position: relative;
+}
+.react-grid-item.cssTransforms {
+    transition-property: transform;
+}
+.css-7o3481 {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    background-color: rgb(37, 41, 48);
+    display: grid;
+    width: 100vw;
+    height: 100%;
+    min-height: 100vh;
+    gap: 1px;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(64px, auto) 1fr 24px;
+    grid-template-areas: "header" "content" "footer";
+}
+.css-1avh5mf {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    grid-area: content / content / content / content;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(37, 41, 48);
+}
+.css-1rxxjfm {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    position: relative;
+    grid-area: subHeader / subHeader / subHeader / subHeader;
+    z-index: auto;
+    width: 100%;
+    height: 100%;
+}
+.css-1wqfcvt {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    position: absolute;
+    z-index: 0;
+    inset: 0px;
+    padding-top: 0px;
+}
+.css-apbhdm {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    width: 100%;
+    background-color: rgb(22, 26, 30);
+    display: flex;
+    padding-left: 16px;
+    height: 68px;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.css-1uu8efa {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    position: relative;
+    grid-area: chart / chart / chart / chart;
+    z-index: auto;
+    width: 100%;
+    height: 100%;
+}
+.react-grid-item>.react-resizable-handle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 0px;
+    right: 0px;
+    cursor: se-resize;
+}
+.react-resizable-hide>.react-resizable-handle {
+    display: none;
+}
+.react-grid-item>.react-resizable-handle::after {
+    content: "";
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    width: 5px;
+    height: 5px;
+    border-right: 2px solid rgb(61, 70, 83);
+    border-bottom: 2px solid rgb(61, 70, 83);
+}
+.css-1l49xsz {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    position: relative;
+    grid-area: orderbook / orderbook / orderbook / orderbook;
+    z-index: auto;
+    width: 100%;
+    height: 100%;
+}
+.css-6q1onk {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    padding: 10px 16px 4px;
+    height: 40px;
+    font-size: 14px;
+    color: rgb(234, 236, 239);
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    font-weight: 600;
+    background-color: rgb(22, 26, 30);
+    flex-shrink: 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    user-select: auto;
+}
+.css-c7tgyk {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+.css-1ii7hin {
+    box-sizing: border-box;
+    margin: 0px 0px 0px 16px;
+    min-width: 0px;
+    font-size: 20px;
+    fill: currentcolor;
+    flex-shrink: 0;
+    color: rgb(61, 70, 83);
+    cursor: pointer;
+    width: 1em;
+    height: 1em;
+}
+.css-mtznzn {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    position: absolute;
+    z-index: 0;
+    inset: 0px;
+    padding-top: 40px;
+}
+.css-mrgnni {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(22, 26, 30);
+    grid-area: orderbook / orderbook / orderbook / orderbook;
+    position: relative;
+    padding-top: 4px;
+    padding-bottom: 8px;
+}
+.css-1mn86h {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    height: 100%;
+}
+.css-ahe1at {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-size: 20px;
+    fill: currentcolor;
+    cursor: pointer;
+    flex-shrink: 0;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    color: rgb(61, 70, 83);
+    z-index: 1;
+    width: 1em;
+    height: 1em;
+}
+.css-1iaxdqt {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    position: relative;
+    grid-area: asset / asset / asset / asset;
+    z-index: auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.css-1n6jvvp {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgb(22, 26, 30);
+    grid-area: asset / asset / asset / asset;
+}
+.css-7crjmb {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-size: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.css-lmho8j {
+    box-sizing: border-box;
+    margin: 0px 0px 4px;
+    min-width: 0px;
+    display: flex;
+    padding-bottom: 8px;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.css-3j2kqe {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.css-yjapqz {
+    box-sizing: border-box;
+    margin: 0px 8px 0px 0px;
+    min-width: 0px;
+    flex: 1 1 0%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: rgb(94, 102, 115);
+    line-height: 16px;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgb(45, 49, 54);
+    border-radius: 2px;
+    cursor: not-allowed;
+}
+.css-yjapqz:last-of-type {
+    margin-right: 0px;
+}
+.react-grid-layout {
+    position: relative;
+    transition: height 200ms ease 0s;
+    display: flex;
+    justify-content: space-between;
+}
+.grid-left {
+    flex: 1;
+    position: relative;
+}
+.grid-left .react-grid-item {
+    width: 100%;
+}
+.grid-right {
+    width: 638px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.grid-right .grid-right-l {
+    width: 319px;
+}
+.grid-right .grid-right-r {
+    flex: 1;
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    .orderbook-list-container,
+    .fixed-size-list {
+        width: 319px !important;
+    }
+}
