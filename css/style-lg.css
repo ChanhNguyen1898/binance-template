@@ -8,10 +8,6 @@
     .chat-container {
         display: none !important;
     }
-    .css-qsgacu img {
-        width: auto;
-        height: 100%;
-    }
 }
 @media screen and (max-width: 1247px) {
     .hidden-sp-lg {
