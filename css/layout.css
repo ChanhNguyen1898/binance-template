@@ -3314,6 +3314,9 @@ div.chart-title-row.fold:nth-child(2)~div {
     overflow: hidden;
     white-space: nowrap;
 }
+.css-1x8edb2:hover {
+    color: rgb(240, 185, 11);
+}
 .css-ke5ir5 {
     box-sizing: border-box;
     margin: 0px;
