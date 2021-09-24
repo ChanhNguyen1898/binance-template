@@ -11,29 +11,18 @@ $(document).ready(function() {
     $('.myTabs').each(function() {
         var $myTabs = $(this);
 
-        $myTabs.find('.css-gnqbje').hide().first().show();
-        $myTabs.find('.css-1ajvsun:first').addClass('active').show();
-        $myTabs.find('.css-1ajvsun').click(function() {
+        $myTabs.find('.detailTab').hide().first().show();
+        $myTabs.find('.btnTab:first').addClass('active').show();
+        $myTabs.find('.btnTab').click(function() {
             var $this = $(this);
             $this.addClass('active').siblings().removeClass('active');
-            $myTabs.find('.css-gnqbje').hide();
-            var tabLink = $(this).attr('rel');
-            $(tabLink).show();
-            return false;
-        });
-        
-        $myTabs.find('.css-im6ko3').hide().first().show();
-        $myTabs.find('.css-ov54vn:first').addClass('active').show();
-        $myTabs.find('.css-ov54vn').click(function() {
-            var $this = $(this);
-            $this.addClass('active').siblings().removeClass('active');
-            $myTabs.find('.css-im6ko3').hide();
+            $myTabs.find('.detailTab').hide();
             var tabLink = $(this).attr('rel');
             $(tabLink).show();
             return false;
         });
     });
-    //FAQ Toggle
+    //slideToggle
     $('.slideToggle').each(function() {
         $('.btnToggle').click(function() {
             $(this).toggleClass('active');
@@ -42,5 +31,15 @@ $(document).ready(function() {
             $(".detailToggle:visible").not(tabRel).slideToggle();
             $(".detailToggle:visible").not(tabRel).prev().toggleClass('active');
         });
+    });
+    //ToolTip
+    $('.myTooltip').each(function () {
+        $('.tooltip-btn').hover(function () {
+                $(this).next('.tooltip-detail').fadeIn(300);
+            }, function () {
+                $(this).next('.tooltip-detail').fadeOut(300);
+            }
+        );
+        
     });
 });
