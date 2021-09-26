@@ -1346,15 +1346,6 @@ h1 {
     -ms-flex-align: center;
     align-items: center;
 }
-.css-4cffwv {
-    box-sizing: border-box;
-    margin: 0;
-    min-width: 0;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-}
 .css-1oxyf2i>a {
     color: #848E9C;
     -webkit-align-items: center;
@@ -4291,12 +4282,6 @@ div.chart-title-row.fold:nth-child(2)~div {
     height: auto;
     margin: auto;
 }
-.css-4cffwv {
-    box-sizing: border-box;
-    margin: 0px;
-    min-width: 0px;
-    display: flex;
-}
 .kline-wrap {
     height: 100%;
     position: relative;
@@ -6021,12 +6006,12 @@ div.chart-title-row.fold:nth-child(2)~div {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
-    background-color: rgb(24, 26, 32);
+    background-color: #262b32;
     display: grid;
     width: 100vw;
     height: 100vh;
     min-height: 1088px;
-    gap: 4px;
+    gap: 1px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: minmax(64px, auto) minmax(64px, auto) 1.6fr 1.15fr 1fr 24px;
     grid-template-areas: "header header header" "switch switch switch" "chart chart orderform" "trades orderbook orderform" "userinfo userinfo orderform" "footer footer footer";
