@@ -287,4 +287,10 @@
     .fixed-size-list {
         width: 319px !important;
     }
+    .grid-right {
+        width: 500px;
+    }
+    .grid-right .grid-right-l {
+        width: 250px;
+    }
 }

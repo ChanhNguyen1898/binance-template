@@ -39,6 +39,17 @@ button {
 .tooltip-detail {
     display: none;
 }
+.srollbar::-webkit-scrollbar-track {
+    background-color: #3f4244;
+}
+.srollbar::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    background-color: #3f4244;
+}
+.srollbar::-webkit-scrollbar-thumb {
+    background-color: #798390;
+}
 #wapper {
     width: 100vw;
     height: 100vh;
@@ -3952,6 +3963,7 @@ div.chart-title-row.fold:nth-child(2)~div {
     background-color: rgb(22, 26, 30);
     grid-area: chart / chart / chart / chart;
     position: relative;
+    overflow: hidden;
 }
 .css-qumzad {
     box-sizing: border-box;

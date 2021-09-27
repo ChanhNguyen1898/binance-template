@@ -734,7 +734,7 @@
     white-space: nowrap;
     display: flex;
     flex-direction: row;
-    overflow: scroll;
+    overflow: auto;
     flex-shrink: 0;
     -webkit-box-flex: 0;
     flex-grow: 0;
