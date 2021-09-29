@@ -40,6 +40,6 @@ $(document).ready(function() {
                 $(this).next('.tooltip-detail').fadeOut(300);
             }
         );
-        
     });
+    
 });
