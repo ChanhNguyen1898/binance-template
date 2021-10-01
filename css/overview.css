@@ -15,24 +15,6 @@
     flex: 1 1 0%;
     flex-direction: column;
 }
-.css-1jmm6wv {
-    box-sizing: border-box;
-    margin: 0px 16px 0px 40px;
-    min-width: 0px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    word-break: break-word;
-    display: flex;
-    flex: 1 1 0%;
-    height: 100%;
-    -webkit-box-align: center;
-    align-items: center;
-    border-width: 0px 0px 1px;
-    border-style: solid;
-    border-color: rgb(234, 236, 239);
-    color: rgb(33, 40, 51);
-}
 .css-u8gr5 {
     margin: 0px;
     min-width: 0px;
@@ -831,20 +813,11 @@
 .css-1a6fq1b .other-accounts-box-item-button-box {
     margin-top: 24px;
 }
-.css-1fduat {
-    box-sizing: border-box;
-    margin: 0px 24px 0px 0px;
-    min-width: 0px;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    color: rgb(112, 122, 138);
+.css-13lezr1:hover:not(:disabled):not(:active) {
+    background-color: rgba(0, 0, 0, 0.02);
 }
-.css-1fduat>div {
-    flex-direction: column;
-    font-size: 16px;
-    line-height: 1.5;
-    position: relative;
+.css-5hd8si:hover:not(:disabled):not(:active) {
+    background-color: rgba(0, 0, 0, 0.02);
 }
 @media screen and (min-width: 767px) {
     .css-xry4yv {

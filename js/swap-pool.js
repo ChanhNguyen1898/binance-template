@@ -6,11 +6,6 @@ $(document).ready(function() {
             $(this).prev('.bn-tooltip-box').fadeOut(300);
         }
     );
-    //Tabs
-    $('.css-1mxpxp').click(function () { 
-        $(this).siblings('.bn-sdd-dropdown').toggleClass('css-1tsr9u1 css-fxluzf');
-        $(this).children('.bn-input-suffix').children('.css-13c2b5p').children().toggleClass('css-1nlwvj5 css-1mv284k');
-    });
     //Slide Toggle
     $('.css-q1tzec').click(function (e) { 
         $(this).parent().toggleClass('css-1ds8tsl css-oc7lny');
