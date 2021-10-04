@@ -173,7 +173,6 @@ html[dir='rtl'] .mirror {
     transition: opacity 0.3s ease;
     position: relative;
     line-height: 1.5;
-    overflow: hidden;
 }
 .rc-table .rc-table-scroll {
     overflow: auto;
@@ -411,6 +410,26 @@ td.rc-table-cell-fix-right::after {
     height: 1px;
     background: #EAECEF;
 }
+.rc-table-row:hover td {
+    background: rgb(245, 245, 245);
+}
+.css-xdf65a td,
+.css-xdf65a th {
+    vertical-align: top;
+    line-height: 20px;
+}
+.css-1y96qo8 {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    color: rgb(132, 142, 156);
+    font-size: 12px;
+}
+.css-1y96qo8 .text {
+    display: inline-block;
+    cursor: pointer;
+    border-color: rgb(132, 142, 156);
+}
 
 /* 1wr4jig */
 
@@ -428,7 +447,6 @@ td.rc-table-cell-fix-right::after {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    overflow: hidden;
 }
 
 /* footer background white */

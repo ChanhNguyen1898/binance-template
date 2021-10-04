@@ -469,7 +469,10 @@
     .css-c35gi1 {
         display: none;
     }
-    .css-foka8b {
+    .css-xry4yv {
+        flex-direction: row;
+    }
+    .nav-hide-sp {
         display: block;
     }
 }

@@ -905,19 +905,6 @@ button {
     font-size: 16px;
     margin-left: 8px;
 }
-.css-10nf7hq {
-    box-sizing: border-box;
-    margin: 0;
-    min-width: 0;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
 .css-18y3fmq {
     box-sizing: border-box;
     margin: 0px;
@@ -3598,14 +3585,6 @@ div.chart-title-row.fold:nth-child(2)~div {
     fill: currentcolor;
     width: 1em;
     height: 1em;
-}
-.css-10nf7hq {
-    box-sizing: border-box;
-    margin: 0px;
-    min-width: 0px;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
 }
 .css-1y0n7ep svg {
     color: rgb(132, 142, 156);
@@ -6708,17 +6687,31 @@ div.chart-title-row.fold:nth-child(2)~div {
 
 /* nav menu */
 
+.my-nav-menu {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px, rgba(0, 0, 0, 0.08) 0px 0px 4px;
+    position: relative;
+    z-index: 1;
+}
+.nav-hide-sp {
+    display: none;
+}
+.css-xry4yv {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    min-height: 600px;
+    flex: 1 1 0%;
+    flex-direction: column;
+}
 .css-foka8b {
     box-sizing: border-box;
     margin: 0px;
     min-width: 0px;
     display: flex;
-    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 4px, rgba(0, 0, 0, 0.08) 0px 0px 4px;
-    position: relative;
-    z-index: 1;
     flex-direction: column;
     width: 200px;
-    display: none;
 }
 .css-z87e9z {
     box-sizing: border-box;
@@ -6893,4 +6886,20 @@ div.chart-title-row.fold:nth-child(2)~div {
     font-size: 16px;
     line-height: 1.5;
     position: relative;
+}
+.css-1wr4jig {
+    flex: 1 1 0%;
+}
+
+/* ToolTip */
+
+.bn-tooltip-box {
+    display: none;
+    bottom: 20px;
+    left: -100px;
+}
+.bn-tooltip-arrow {
+    bottom: -3px;
+    left: 140px;
+    transform: rotate(45deg);
 }
