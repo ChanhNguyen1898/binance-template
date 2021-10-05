@@ -22,6 +22,21 @@ $(document).ready(function() {
             return false;
         });
     });
+    //multi Children Tabs
+    $('.myChildTabs').each(function() {
+        var $myTabs = $(this);
+
+        $myTabs.find('.detailChildTab').hide().first().show();
+        $myTabs.find('.btnChildTab:first').addClass('active').show();
+        $myTabs.find('.btnChildTab').click(function() {
+            var $this = $(this);
+            $this.addClass('active').siblings().removeClass('active');
+            $myTabs.find('.detailChildTab').hide();
+            var tabLink = $(this).attr('rel');
+            $(tabLink).show();
+            return false;
+        });
+    });
     //slideToggle
     $('.slideToggle').each(function() {
         $('.btnToggle').click(function() {
